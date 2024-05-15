@@ -1,0 +1,63 @@
+.section-hero {
+  background-color: #ece8d9;
+
+  .hero-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .hero-list {
+      display: flex;
+      align-items: center;
+      gap: 4.8rem;
+
+      .list-col__1 {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+      }
+
+      .list-col__2 {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+      }
+    }
+  }
+
+  .momsday {
+    text-align: center;
+  }
+}
+
+.section-products {
+  background-color: #ffffff;
+
+  .products-header {
+    @include flex;
+  }
+}
+
+.section-categories {
+  background-color: #ffffff;
+
+  .categories-header {
+    @include flex;
+  }
+}
+
+.section-brands {
+  background-color: #ffffff;
+}
+
+.section-testimonials {
+  background-color: #edf6fd;
+}
+
+.section-guarantee {
+  background-color: #fff;
+}
+
+.section-featured {
+  background-color: #f7f6f4;
+}
