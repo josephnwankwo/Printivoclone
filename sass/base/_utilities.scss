@@ -26,3 +26,7 @@
 .grid--6-cols {
   grid-template-columns: repeat(6, 1fr);
 }
+
+.color-red {
+  color: $color-red;
+}
